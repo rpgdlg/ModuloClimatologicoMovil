@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Humidity">Humedad:</string>
+    <string name="Light">Luminosidad:</string>
+    <string name="Temperature">Temperatura:</string>
+    <string name="Pressure">Presión:</string>
+    <string name="Connect">Conectar Bluetooth</string>
+    <string name="about">Acerca</string>
+    <string name="Disconnect">Desconectar</string>
+    <string name="connectToServer">Conectar al servidor</string>
+    <string name="disconnectServer">Desconectar de servidor</string>
+</resources>

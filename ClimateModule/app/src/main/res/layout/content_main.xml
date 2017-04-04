@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.cm.reactstudios.climatemodule.MainActivity"
+    tools:showIn="@layout/activity_main"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textHumidity"
+        android:text="@string/Humidity"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/Light"
+        android:id="@+id/textLight"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/Temperature"
+        android:id="@+id/textTemperature"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="@string/Pressure"
+        android:id="@+id/textPressure"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviados:"
+            android:id="@+id/textSend" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="No enviados:"
+            android:id="@+id/textNSend" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:baselineAligned="false">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="3">
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="124dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Connect"
+                android:textColor="@color/white"
+                android:id="@+id/buttonCBluetooth"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/shape"
+                android:drawableEnd="@drawable/bluetooth"
+                android:drawablePadding="-15sp"
+                android:drawableRight="@drawable/bluetooth"/>
+
+            <Button
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="134dp"
+                android:layout_height="wrap_content"
+                android:text="@string/Disconnect"
+                android:textColor="@color/white"
+                android:id="@+id/buttonDBluetooth"
+                android:background="@drawable/shape1"
+                android:drawableEnd="@drawable/bluetooth"
+                android:drawablePadding="-15sp"
+                android:drawableRight="@drawable/bluetootho"
+                android:layout_gravity="center_horizontal"/>
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

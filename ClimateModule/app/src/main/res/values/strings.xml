@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Climate Module</string>
+    <string name="action_settings">Settings</string>
+    <string name="Humidity">Humedad:</string>
+    <string name="Light">Luminosidad:</string>
+    <string name="Temperature">Temperatura:</string>
+    <string name="Pressure">Presión:</string>
+    <string name="Connect">Conectar Bluetooth</string>
+    <string name="about">Acerca</string>
+    <string name="Disconnect">Desconectar</string>
+    <string name="connectToServer">Conectar al servidor</string>
+    <string name="disconnectServer">Desconectar de servidor</string>
+</resources>

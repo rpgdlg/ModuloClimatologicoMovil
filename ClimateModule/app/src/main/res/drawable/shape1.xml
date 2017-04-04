@@ -1,0 +1,14 @@
+<shape android:shape="rectangle"
+       xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:startColor="@color/drk_button1"
+        android:endColor="@color/lgt_button1"
+        android:angle="90">
+    </gradient>
+
+    <corners android:radius="13dip" />
+
+    <stroke
+        android:width="1px"
+        android:color="@color/drk_button1"/>
+</shape>
